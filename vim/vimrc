@@ -73,3 +73,12 @@ set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
 set paste
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 06. Visual mode
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" http://stackoverflow.com/questions/7452301/vim-indent-multiple-lines-with-tab
+vmap <Tab> >
+vmap <S-Tab> <
+
+
