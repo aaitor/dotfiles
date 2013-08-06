@@ -6,4 +6,15 @@ export PATH=/opt/qt5/bin:/home/aitor/Software/adt-bundle-linux-x86_64/sdk/platfo
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+# GIT section
+
+# Coloured output
+git config --global color.ui "auto"
+
+# global profile
+git config --global user.name "Aitor"
+git config --global user.email "aaitor@gmail.com"
+
+# Ignore whitespace
+git config --global apply.whitespace nowarn
 
