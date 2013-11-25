@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 /*
  * Copyright 2002-2007 the original author or authors.
  *
