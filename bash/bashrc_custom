@@ -1,7 +1,10 @@
 
 #JAVA_HOME=/usr/local/java
 export JAVA_HOME=/usr
-export PATH=/opt/qt5/bin:/home/aitor/Software/adt-bundle-linux-x86_64/sdk/platform-tools:$PATH:$JAVA_HOME/bin:$HOME/bin
+export JMETER_HOME=/home/aitor/Software/jmeter
+export JMETER_BINDIR=$JMETER_HOME/bin
+export GROOVY_HOME=/
+export PATH=/opt/qt5/bin:/home/aitor/Software/adt-bundle-linux-x86_64/sdk/platform-tools:$PATH:$JAVA_HOME/bin:$HOME/bin:$JMETER_BINDIR
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
